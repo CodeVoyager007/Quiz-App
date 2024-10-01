@@ -27,6 +27,15 @@ export default function Home() {
       ) : (
         <CategorySelector categories={categories} onSelectCategory={handleSelectCategory} />
       )}
+       <p
+          className="absolute bottom-4 right-4"
+          style={{
+            fontFamily: "Times-New-Roman",
+            color: "#900020",
+          }}
+        >
+          Made with ♥ by Ayesha Mughal
+        </p>
     </div>
   );
 }
